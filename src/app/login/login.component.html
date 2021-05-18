@@ -1,0 +1,66 @@
+<!-- container -->
+
+    <div class="text-center">
+        <h1 class="mx-auto d-block my-4" style="font-family: 'Itim', cursive;color:lightcoral;">Sign Up
+        </h1>
+    </div>
+    <!-- inner block -->
+    <div class="block w-75 mx-auto border px-5 rounded bg pb-2">
+
+
+        <!-- Form -->
+        <form #FormReference="ngForm" (ngSubmit)="GetDataOfUser(FormReference)" class="form-floating mb-2 mt-4">
+
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2">
+                <div class="col">
+                    <div class="form-floating mb-2">
+
+                        <input type="text" name="FirstName" id="FN" class="form-control" placeholder="Firstname"
+                            ngModel>
+                        <label for="FN">Firstname </label>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="form-floating mb-2">
+
+                        <input type="text" name="SecondName" id="SN" class="form-control" placeholder="Secondname"
+                            ngModel>
+                        <label for="SN">Secondname : </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-floating mb-2">
+
+                <input type="text" name="username" id="UN" class="form-control" placeholder="username" ngModel>
+                <label for="UN">username : </label>
+            </div>
+
+            <div class="form-floating mb-2">
+
+                <input type="email" name="Email" id="Email" class="form-control" placeholder="Email Address" ngModel>
+                <label for="Email">Email Address</label>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2">
+                <div class=" col  mb-2">
+
+                    <input type="text" name="DateOfBirth" placeholder="Date of Birth" class="form-control"
+                        onfocus="(this.type='date')" ngModel>
+                </div>
+
+                <div class="col">
+
+                    <select class="form-select" name="Gender" aria-label="Default select example" ngModel>
+                        <option value="" selected disabled hidden>Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success mt-4 d-block mx-auto"><i class="fas fa-user-plus"></i>
+                SUBMIT</button>
+        </form>
+    </div>
