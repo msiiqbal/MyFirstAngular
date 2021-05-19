@@ -5,6 +5,7 @@ import { ActionGamesComponent } from './action-games/action-games.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProductsComponent } from './products/products.component';
 import { RacingGamesComponent } from './racing-games/racing-games.component';
 import { SigninComponent } from './signin/signin.component';
@@ -22,7 +23,8 @@ const routes: Routes = [
     {path:'SPORTS',component:SportsGamesComponent},
     {path:'',redirectTo:'/PRODUCTS/ACTION',pathMatch:'full'}
   ]},
-  {path:'',redirectTo:'/SIGNIN',pathMatch:'full'}
+  {path:'',redirectTo:'/SIGNIN',pathMatch:'full'},
+  {path:'**',component:PageNotFoundComponent}
 ];
 
 @NgModule({
