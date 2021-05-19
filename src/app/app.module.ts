@@ -13,6 +13,10 @@ import { LoginComponent } from './login/login.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { FormsModule } from '@angular/forms';
 import { SigninComponent } from './signin/signin.component';
+import { ActionGamesComponent } from './action-games/action-games.component';
+import { RacingGamesComponent } from './racing-games/racing-games.component';
+import { SportsGamesComponent } from './sports-games/sports-games.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { SigninComponent } from './signin/signin.component';
     HomeComponent,
     LoginComponent,
     ContactusComponent,
-    SigninComponent
+    SigninComponent,
+    ActionGamesComponent,
+    RacingGamesComponent,
+    SportsGamesComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

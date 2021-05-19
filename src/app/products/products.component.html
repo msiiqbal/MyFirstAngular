@@ -1,9 +1,19 @@
-<div class="mt-5">
 
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3  g-4 mb-4">
-        <div class="col" *ngFor="let item of Product">
-            <app-products-details [ProductObj]=item></app-products-details>
-        </div>
-    </div>
 
-</div>
+<ul class="nav  mt-5 justify-content-evenly">
+
+    <li class="nav-item">
+      <a class="nav-link " routerLink="ACTION" routerLinkActive="active">Action</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" routerLink="RACING" routerLinkActive="active">Racing</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" routerLink="SPORTS" routerLinkActive="active">Sports</a>
+    </li>
+
+</ul>
+<!-- Router  -->
+<router-outlet></router-outlet>

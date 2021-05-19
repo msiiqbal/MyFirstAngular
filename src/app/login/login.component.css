@@ -1,5 +1,6 @@
 .block {
-    background-color: aliceblue;
+    /* background-color: rgb(63, 245, 230); */
+    max-width: 70%;
 }
 
 .form-control {

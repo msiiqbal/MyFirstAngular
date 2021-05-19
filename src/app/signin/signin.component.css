@@ -1,18 +1,3 @@
-.block {
-    background-color: aliceblue;
-}
-
-.form-control {
-    margin: 0px;
-}
-@media screen and (min-width:576px) {
-    .container{
-        width: 100%;
-        margin: 0px;
-    }
-    .block{
-        width: 100%;
-        margin: 0px;
-        padding: 2px;
-    }
+.block{
+    max-width: 500px;
 }
