@@ -2,12 +2,17 @@ import { Injectable } from '@angular/core';
 
 import { Products } from './models/product.model'
 
+import {HttpClient} from '@angular/common/http';
+
+import {Observable} from 'rxjs';
+
+
 @Injectable({
   providedIn: 'root'
 })
 export class SportsGamesDataService {
 
-  constructor() { }
+  constructor(private HC:HttpClient) { }
 
   private SportsGamesData: Products[] = [
 
@@ -37,7 +42,7 @@ export class SportsGamesDataService {
 
   ]
 
-  GetSportsGamesData(): Products[] {
-    return this.SportsGamesData;
+  GetSportsGamesData():Observable <Products[]> {
+    return this.HC.get<Products[]>('assets/SportsGames.json')
   }
 }
