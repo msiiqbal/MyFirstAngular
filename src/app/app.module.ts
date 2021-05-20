@@ -18,7 +18,9 @@ import { RacingGamesComponent } from './racing-games/racing-games.component';
 import { SportsGamesComponent } from './sports-games/sports-games.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { TestDemo1Component } from './test-demo1/test-demo1.component';
+import { TestDemo2Component } from './test-demo2/test-demo2.component'
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import {HttpClientModule} from '@angular/common/http'
     ActionGamesComponent,
     RacingGamesComponent,
     SportsGamesComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    TestDemo1Component,
+    TestDemo2Component
   ],
   imports: [
     BrowserModule,
