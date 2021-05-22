@@ -17,6 +17,6 @@ export class RacingGamesDataService {
 
 
   GetRacingGamesData():Observable<Products[]>{
-    return this.HC.get<Products[]>('assets/RacingGames.json');
+    return this.HC.get<Products[]>('http://localhost:3000/racinggames');
   }
 }

@@ -8,27 +8,26 @@ import { SerTest1Service } from '../ser-test1.service';
   templateUrl: './test-demo1.component.html',
   styleUrls: ['./test-demo1.component.css']
 })
-export class TestDemo1Component implements OnInit,OnDestroy {
+export class TestDemo1Component implements OnInit, OnDestroy {
 
-  Test1Subscription:any;
-  alpha:any=[]
-  TestData:TestData1[]=[];
+  Test1Subscription: any;
+  alpha: any = []
+  TestData: TestData1[] = [];
 
-  constructor(private test1OBj:SerTest1Service ) { }
+  constructor(private test1OBj: SerTest1Service) { }
 
   ngOnInit(): void {
     this.Test1Subscription = this.test1OBj.GetTestData1().subscribe(
-      TestdataTemp =>{
+      TestdataTemp => {
         // console.log(this.Testdata)
-        this.alpha=TestdataTemp.data;
-        this.TestData=this.alpha;
-        
+        this.alpha = TestdataTemp.data;
+        this.TestData = this.alpha;
+
       }
     )
 
-
   }
-  ngOnDestroy(){
+  ngOnDestroy() {
     this.Test1Subscription.unsubscribe();
   }
 

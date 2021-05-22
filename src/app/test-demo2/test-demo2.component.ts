@@ -1,4 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { TestData2 } from '../models/Test2.model';
 import { SerTest2Service } from '../ser-test2.service';
 
@@ -13,7 +14,7 @@ export class TestDemo2Component implements OnInit,OnDestroy {
   
   TestData:TestData2[]=[];
 
-  constructor(private test1OBj:SerTest2Service ) { }
+  constructor(private test1OBj:SerTest2Service,private ROUTER:Router ) { }
 
   ngOnInit(): void {
     this.Test2Subscription = this.test1OBj.GetTestData1().subscribe(
@@ -27,4 +28,7 @@ export class TestDemo2Component implements OnInit,OnDestroy {
     this.Test2Subscription.unsubscribe();
   }
 
+  GetUserDetails(ind:number){
+    this.ROUTER.navigateByUrl('test2/'+(ind+1));
+  }
 }

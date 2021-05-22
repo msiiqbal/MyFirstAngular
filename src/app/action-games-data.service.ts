@@ -14,6 +14,6 @@ export class ActionGamesDataService {
   constructor(private HC:HttpClient) { }
 
   GetActionGamesData():Observable<Products[]>{
-    return this.HC.get<Products[]>('assets/ActionGames.json')
+    return this.HC.get<Products[]>('http://localhost:3000/actioongames')
   }
 }

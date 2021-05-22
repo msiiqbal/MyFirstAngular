@@ -1,0 +1,265 @@
+{
+    "actioongames": [
+        {
+            "id":"halo5",
+            "ProductTitle": "Halo-5",
+            "Description": "Guardians is a first-person shooter, with players experiencing most gameplay through the eyes of a playable character. The camera switches to a third-person view for some cinematics and gameplay sequences. The game preserves many of the core features of the Halo franchise's gameplay experience.",
+            "ProductImage": "../../assets/Halo-5.jpg",
+            "DownloadLink": "#",
+            "ShareLink": "#"
+        },
+        {
+            "id":"gta5",
+            "ProductTitle": "GTA-5",
+            "Description": "Taking the fundamental concepts of open-world freedom, ambient activity and mission-based gameplay of the Grand Theft Auto series and making them available to multiple players in an incredibly dynamic online world, GTA Online offers the freedom to explore alone or work cooperatively with friends to complete missions.",
+            "ProductImage": "../../assets/GTA-5.jpg",
+            "DownloadLink": "#",
+            "ShareLink": "#"
+        },
+        {
+            "id":"godofwar",
+            "ProductTitle": "GOD OF WAR",
+            "Description": "Ares, in Greek religion, god of war or, more properly, the spirit of battle. Unlike his Roman counterpart, Mars, he was never very popular, and his worship was not extensive in Greece. He represented the distasteful aspects of brutal warfare and slaughter.Based in ancient mythology.the Greek God of War Ares..",
+            "ProductImage": "../../assets/God of War.jpg",
+            "DownloadLink": "#",
+            "ShareLink": "#"
+        }
+    ],
+    "racinggames": [
+        {
+            "id":"needforspeed",
+            "ProductTitle": "Need For Speed",
+            "Description": "The series centers around illicit street racing and in general tasks players to complete various types of races while evading the local law enforcement in police pursuits.It tells the story of street racer Tobey Marshall, who sets off to race cross-country as a way of avenging his friend's death at the hands of a rival racer",
+            "ProductImage": "../../assets/Need for speed.jpg",
+            "DownloadLink": "#",
+            "ShareLink": "#"
+        },
+        {
+            "id":"asphalt9",
+            "ProductTitle": "Asphalt-9",
+            "Description": "Take on the most fearless drivers and become the next Asphalt Legend in this brand new arcade racing experience. In Asphalt 9: Legends, players will be able to take the wheel of over 50 prestigious dream cars across the most amazing real world locations.Asphalt 9: Legends is a racing video game developed by Gameloft.",
+            "ProductImage": "../../assets/Asphalt-9.jpg",
+            "DownloadLink": "#",
+            "ShareLink": "#"
+        },
+        {
+            "id":"f12020",
+            "ProductTitle": "F1 -2020",
+            "Description": "The 2020 FIA Formula One World Championship was the motor racing championship for F1 cars which marked the 70th anniversary of the first Formula One World Drivers' Championship. The championship was recognised by the governing body of international motorsport, the (FIA) as the highest class for racing cars.",
+            "ProductImage": "../../assets/F1-2020.jpg",
+            "DownloadLink": "#",
+            "ShareLink": "#"
+        }
+    ],
+    "sportsgames": [
+        {
+            "id":"fifa20",
+            "ProductTitle": "FIFA-20",
+            "Description": "The series centers around illicit street racing and in general tasks players to complete various types of races while evading the local law enforcement in police pursuits.It tells the story of street racer Tobey Marshall, who sets off to race cross-country as a way of avenging his friend's death at the hands of a rival racer",
+            "ProductImage": "../../assets/FIFA-20.jpg",
+            "DownloadLink": "#",
+            "ShareLink": "#"
+        },
+        {
+            "id":"nbk2k19",
+            "ProductTitle": "NBK 2K19",
+            "Description": "Take on the most fearless drivers and become the next Asphalt Legend in this brand new arcade racing experience. In Asphalt 9: Legends, players will be able to take the wheel of over 50 prestigious dream cars across the most amazing real world locations.Asphalt 9: Legends is a racing video game developed by Gameloft.",
+            "ProductImage": "../../assets/NBK.jpg",
+            "DownloadLink": "#",
+            "ShareLink": "#"
+        },
+        {
+            "id":"baseball",
+            "ProductTitle": "Baseball",
+            "Description": "The 2020 FIA Formula One World Championship was the motor racing championship for F1 cars which marked the 70th anniversary of the first Formula One World Drivers' Championship. The championship was recognised by the governing body of international motorsport, the (FIA) as the highest class for racing cars.",
+            "ProductImage": "../../assets/BaseBall.jpg",
+            "DownloadLink": "#",
+            "ShareLink": "#"
+        }
+    ],
+    "profiles": [
+        {
+          "id": 1,
+          "name": "Leanne Graham",
+          "email": "Sincere@april.biz",
+          "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+              "lat": "-37.3159",
+              "lng": "81.1496"
+            }
+          },
+          "profession":"Employee",
+          "img":"https://reqres.in/img/faces/8-image.jpg",
+          "phone": "1-770-736-8031 x56442"
+
+        },
+        {
+          "id": 2,
+          "name": "Ervin Howell",
+          "email": "Shanna@melissa.tv",
+          "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+              "lat": "-43.9509",
+              "lng": "-34.4618"
+            }
+          },
+          "profession":"Employee",
+          "img":"https://reqres.in/img/faces/8-image.jpg",
+          "phone": "010-692-6593 x09125"
+
+        },
+        {
+          "id": 3,
+          "name": "Clementine Bauch",
+          "email": "Nathan@yesenia.net",
+          "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+              "lat": "-68.6102",
+              "lng": "-47.0653"
+            }
+          },
+          "profession":"Employee",
+          "img":"https://reqres.in/img/faces/8-image.jpg",
+          "phone": "1-463-123-4447"
+        },
+        {
+          "id": 4,
+          "name": "Patricia Lebsack",
+          "email": "Julianne.OConner@kory.org",
+          "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+              "lat": "29.4572",
+              "lng": "-164.2990"
+            }
+          },
+          "profession":"Employee",
+          "img":"https://reqres.in/img/faces/8-image.jpg",
+          "phone": "493-170-9623 x156"
+        },
+        {
+          "id": 5,
+          "name": "Chelsey Dietrich",
+          "email": "Lucio_Hettinger@annie.ca",
+          "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+              "lat": "-31.8129",
+              "lng": "62.5342"
+            }
+          },
+          "profession":"Employee",
+          "img":"https://reqres.in/img/faces/8-image.jpg",
+          "phone": "(254)954-1289"
+        },
+        {
+          "id": 6,
+          "name": "Mrs. Dennis Schulist",
+          "email": "Karley_Dach@jasper.info",
+          "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+              "lat": "-71.4197",
+              "lng": "71.7478"
+            }
+          },
+          "profession":"Employee",
+          "img":"https://reqres.in/img/faces/8-image.jpg",
+          "phone": "1-477-935-8478 x6430"
+        },
+        {
+          "id": 7,
+          "name": "Kurtis Weissnat",
+          "email": "Telly.Hoeger@billy.biz",
+          "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+              "lat": "24.8918",
+              "lng": "21.8984"
+            }
+          },
+          "profession":"Employee",
+          "img":"https://reqres.in/img/faces/8-image.jpg",
+          "phone": "210.067.6132"
+        },
+        {
+          "id": 8,
+          "name": "Nicholas Runolfsdottir V",
+          "email": "Sherwood@rosamond.me",
+          "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+              "lat": "-14.3990",
+              "lng": "-120.7677"
+            }
+          },
+          "profession":"Employee",
+          "img":"https://reqres.in/img/faces/8-image.jpg",
+          "phone": "586.493.6943 x140"
+        },
+        {
+          "id": 9,
+          "name": "Glenna Reichert",
+          "email": "Chaim_McDermott@dana.io",
+          "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+              "lat": "24.6463",
+              "lng": "-168.8889"
+            }
+          },
+          "profession":"Employee",
+          "img":"https://reqres.in/img/faces/8-image.jpg",
+          "phone": "(775)976-6794 x41206"
+        },
+        {
+          "id": 10,
+          "name": "Clementina DuBuque",
+          "email": "Rey.Padberg@karina.biz",
+          "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+              "lat": "-38.2386",
+              "lng": "57.2232"
+            }
+          },
+          "profession":"Employee",
+          "img":"https://reqres.in/img/faces/8-image.jpg",
+          "phone": "024-648-3804"
+        }
+      
+      ]
+}

@@ -7,16 +7,22 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProductsComponent } from './products/products.component';
+import { ProfilesComponent } from './profiles/profiles.component';
 import { RacingGamesComponent } from './racing-games/racing-games.component';
 import { SigninComponent } from './signin/signin.component';
 import { SportsGamesComponent } from './sports-games/sports-games.component';
 import { TestDemo1Component } from './test-demo1/test-demo1.component';
 import { TestDemo2Component } from './test-demo2/test-demo2.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 const routes: Routes = [
 
   {path:'test1',component:TestDemo1Component},
   {path:'test2',component:TestDemo2Component},
+  {path:'test2/:id',component:UserDetailsComponent},
+  {path:'profiles',component:ProfilesComponent},
+  {path:'profiles/:id',component:UserProfileComponent},
   {path:'HOME',component:HomeComponent},
   {path:'SIGNUP',component:LoginComponent},
   {path:'SIGNIN',component:SigninComponent},

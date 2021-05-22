@@ -11,8 +11,13 @@ export class SerTest2Service {
   constructor(private HC:HttpClient) { }
 
 
-  GetTestData1():Observable<any>{
-    return this.HC.get<any>('https://jsonplaceholder.typicode.com/users')
+  GetTestData1():Observable<TestData2[]>{
+    return this.HC.get<TestData2[]>('https://jsonplaceholder.typicode.com/users')
+  }
+
+
+  SendUserData(ind:number):Observable<TestData2>{
+    return this.HC.get<TestData2>('https://jsonplaceholder.typicode.com/users/'+ind)
   }
 
 }

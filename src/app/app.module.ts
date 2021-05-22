@@ -20,7 +20,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 
 import {HttpClientModule} from '@angular/common/http';
 import { TestDemo1Component } from './test-demo1/test-demo1.component';
-import { TestDemo2Component } from './test-demo2/test-demo2.component'
+import { TestDemo2Component } from './test-demo2/test-demo2.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
+import { ProfilesComponent } from './profiles/profiles.component'
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { TestDemo2Component } from './test-demo2/test-demo2.component'
     SportsGamesComponent,
     PageNotFoundComponent,
     TestDemo1Component,
-    TestDemo2Component
+    TestDemo2Component,
+    UserDetailsComponent,
+    UserProfileComponent,
+    ProfilesComponent
   ],
   imports: [
     BrowserModule,

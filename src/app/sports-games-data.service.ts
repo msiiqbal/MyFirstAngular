@@ -17,6 +17,6 @@ export class SportsGamesDataService {
 
 
   GetSportsGamesData():Observable <Products[]> {
-    return this.HC.get<Products[]>('assets/SportsGames.json')
+    return this.HC.get<Products[]>('http://localhost:3000/sportsgames')
   }
 }

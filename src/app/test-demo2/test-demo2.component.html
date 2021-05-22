@@ -6,37 +6,24 @@
                 <th scope="col">Name</th>
                 <th scope="col">Username</th>
                 <th scope="col">Email</th>
-                <th scope="col">Phone</th>
                 <th scope="col">Website</th>
                 <th scope="col">CompanyName</th>
-                <th scope="col">Company catchphrace</th>
-                <th scope="col">Company bs</th>
-                <th scope="col">Street</th>
-                <th scope="col">Suite</th>
-                <th scope="col">city</th>
-                <th scope="col">Zipcode</th>
-                <th scope="col">geo latitude</th>
-                <th scope="col">geo longitude</th>
+
+                <th></th>
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor='let user of TestData'>
+            <tr *ngFor='let user of TestData;let ind=index'>
 
                 <td>{{user.id}}</td>
                 <td>{{user.name}}</td>
                 <td>{{user.username}}</td>
                 <td>{{user.email}}</td>
-                <td>{{user.phone}}</td>
+
                 <td>{{user.website}}</td>
                 <td>{{user.company.name}}</td>
-                <td>{{user.company.catchPhrase}}</td>
-                <td>{{user.company.bs}}</td>
-                <td>{{user.address.street}}</td>
-                <td>{{user.address.suite}}</td>
-                <td>{{user.address.city}}</td>
-                <td>{{user.address.zipcode}}</td>
-                <td>{{user.address.geo.lat}}</td>
-                <td>{{user.address.geo.lng}}</td>
+
+                <td><button class="btn-sm" (click)="GetUserDetails(ind)" >More info</button></td>
             </tr>
         </tbody>
     </table>
